@@ -3,3 +3,5 @@
 
 ### Codeclimat bages:
 [![Maintainability](https://api.codeclimate.com/v1/badges/d467d6b9725301cb4689/maintainability)](https://codeclimate.com/github/figan915/python-project-49/maintainability)
+### ASCIINEMA Demo:
+[![asciicast](https://asciinema.org/a/PXURrSszHSeI4W1yi6s39dbgM.svg)](https://asciinema.org/a/PXURrSszHSeI4W1yi6s39dbgM)
