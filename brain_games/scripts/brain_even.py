@@ -14,17 +14,14 @@ def main():
         answer = input()
         print(f'Answer: {answer}')
         if (number % 2 == 0 and answer.lower() == 'yes') or (number % 2 != 0 and answer.lower() == 'no'):
-            print('Correct')
+            print('Correct!')
         elif (number % 2 == 0 and answer.lower() == 'no'):
-            print(f'no is wrong answer ;(. Correct answer was yes.\nLet\'s try again, {user_name}')
-            break
+            return f'no is wrong answer ;(. Correct answer was yes.\nLet\'s try again, {user_name}'
         elif (number % 2 != 0 and answer.lower() == 'yes'):
-            print(f'yes is wrong answer ;(. Correct answer was no.\nLet\'s try again, {user_name}')
-            break
+            return f'yes is wrong answer ;(. Correct answer was no.\nLet\'s try again, {user_name}'
         else:
-            print(f'is wrong answer ;(. Correct answer was yes or no.\nLet\'s try again, {user_name}')
-            break
+            return f'is wrong answer ;(. Correct answer was yes or no.\nLet\'s try again, {user_name}'
+        
     return f'Congratulations,  {user_name}!'
-
 if __name__ == '__main__':
     main()
