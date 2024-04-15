@@ -1,5 +1,3 @@
-
-
 import random
 import prompt
 
@@ -23,11 +21,5 @@ def run_game(welcome, rules, check_response):
             break
         else:
             print('Correct!')
-        continue
+
     return f'Congratulations, {user_name}!'
-
-
-                
-
-
-
