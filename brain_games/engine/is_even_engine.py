@@ -1,15 +1,11 @@
 import random
-import prompt
 
 
-def run_game(welcome, rules, check_response):
+def run_game_even(welcome, rules, check_response):
     print('Welcome to Brain Games')
     user_name = welcome()
-
-
     rules()
-
-
+    count = 0
     for _ in range(3):
         number = random.randint(1, 100)
         print(f'Question:  {number}')
@@ -21,5 +17,7 @@ def run_game(welcome, rules, check_response):
             break
         else:
             print('Correct!')
+        count += 1
 
-    return f'Congratulations, {user_name}!'
+    if count == 3:
+        print(f'Congratulations, {user_name}!')

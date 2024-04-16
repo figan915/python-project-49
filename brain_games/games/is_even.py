@@ -1,8 +1,9 @@
-import prompt
+# import prompt
 
 user_name = None
 
-def welcome_is_even():
+
+def welcome():
     global user_name
     user_name = input('May I have your name? ')
     print(f'Hello, {user_name}!')
@@ -23,17 +24,12 @@ def check_is_even(number, answer):
 
     if (number % 2 == 0 and answer.lower() == 'yes') or \
        (number % 2 != 0 and answer.lower() == 'no'):
-
-            return None
+        return None
 
     elif (number % 2 == 0 and answer.lower() == 'no'):
-
-            return answere1
+        return answere1
 
     elif (number % 2 != 0 and answer.lower() == 'yes'):
-
-
-            return answere2
-
+        return answere2
     else:
-          return answere3
+        return answere3
