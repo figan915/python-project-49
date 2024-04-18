@@ -4,4 +4,4 @@
 ### Codeclimat bages:
 [![Maintainability](https://api.codeclimate.com/v1/badges/d467d6b9725301cb4689/maintainability)](https://codeclimate.com/github/figan915/python-project-49/maintainability)
 ### ASCIINEMA Demo:
-[![asciicast](https://asciinema.org/a/jKzwhur8GnVplY13CcHmXGSJm.svg)](https://asciinema.org/a/jKzwhur8GnVplY13CcHmXGSJm)
+[![asciicast](https://asciinema.org/a/wUwSof0q2v9kRjpW5EjHyTslt.svg)](https://asciinema.org/a/wUwSof0q2v9kRjpW5EjHyTslt)
