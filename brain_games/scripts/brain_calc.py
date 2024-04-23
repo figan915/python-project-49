@@ -2,7 +2,7 @@
 
 from brain_games.games.calc import run_calculator_game
 
-print("brain-calc\nWelcome to the Brain Games!")
+print("brain-calc\n\nWelcome to the Brain Games!")
 
 
 def main():

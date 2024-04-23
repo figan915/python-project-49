@@ -1,26 +1,22 @@
-from brain_games.engine.is_divider_engine import generate_question, check_response
-import prompt
+from brain_games.engine.engine import generate_question_gcd, check_response, welcome
 
-user_name = None
 
 def run_divider_game():
-    global user_name
-    user_name = prompt.string('May I have your name? ')
-    print(f'Hello, {user_name}!')
-    print(f'Find the greatest common divisor of given numbers.')
-    correct_count = 0
 
+    user_name = welcome()
+    print('Find the greatest common divisor of given numbers.')
+    correct_count = 0
     for _ in range(3):
-        expression, correct_answer =  generate_question()
+        expression, correct_answer =  generate_question_gcd()
         print(f"Question: {expression}")
         user_answer = input("Your answer: ")
-        result = check_response(expression, correct_answer, user_answer)
+        result = check_response(expression, correct_answer,
+                                user_answer, user_name)
         if result == 'Correct!':
             print(result)
             correct_count += 1
         else:
             print(result)
-            print(f"Let's try again, {user_name}!")
             break
 
     if correct_count == 3:
