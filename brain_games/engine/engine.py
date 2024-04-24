@@ -74,7 +74,6 @@ def is_prime(number):
         if number % i == 0 or number % (i + 2) == 0:
             return False
         i += 6
-
     return True
 
 
