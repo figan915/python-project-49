@@ -1,5 +1,6 @@
 import prompt
-from brain_games.engine.engine import generate_question_progression, check_response, welcome
+from brain_games.engine.engine import generate_question_progression
+from brain_games.engine.engine import welcome, check_response
 
 
 def run_progression_game():

@@ -1,5 +1,6 @@
 import prompt
-from brain_games.engine.engine import generate_question_is_even, check_response, welcome
+from brain_games.engine.engine import generate_question_is_even, check_response
+from brain_games.engine.engine import welcome
 
 
 def run_is_even_game():
