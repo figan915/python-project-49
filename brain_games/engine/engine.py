@@ -61,6 +61,23 @@ def generate_question_progression():
     return progression()
 
 
+def is_prime(number):
+    if number < 2:
+        return False
+    if number in (2, 3):
+        return True
+    if number % 2 == 0 or number % 3 == 0:
+        return False
+
+    i = 5
+    while i * i <= number:
+        if number % i == 0 or number % (i + 2) == 0:
+            return False
+        i += 6
+
+    return True
+
+
 def check_response(expression, correct_answer, user_answer, user_name):
 
     if user_answer == correct_answer:
