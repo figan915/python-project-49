@@ -33,7 +33,7 @@ def generate_question_gcd():
     def gcd() -> str:
         num1 = random.randint(1, 50)
         num2 = random.randint(1, 50)
-        expression = f"{num1}, {num2}"
+        expression = f"{num1} {num2}"
         while num2:
             num1, num2 = num2, num1 % num2
         correct_answer = str(num1)
