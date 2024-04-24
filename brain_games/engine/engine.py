@@ -10,7 +10,7 @@ def welcome():
 
 def generate_question_is_even():
     number = random.randint(1, 100)
-    expression = f'Question:  {number}'
+    expression = f'{number}'
     if number % 2 == 0:
         correct_answer = 'yes'
     elif number % 2 != 0:

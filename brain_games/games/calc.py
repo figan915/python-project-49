@@ -1,3 +1,4 @@
+import prompt
 from brain_games.engine.engine import generate_question_calc, check_response, welcome
 
 
@@ -9,7 +10,7 @@ def run_calculator_game():
     for _ in range(3):
         question, correct_answer = generate_question_calc()
         print(f"Question: {question}")
-        user_answer = input("Your answer: ")
+        user_answer = prompt.string("Your answer: ")
         result = check_response(question, correct_answer,
                                 user_answer, user_name)
         if result == 'Correct!':

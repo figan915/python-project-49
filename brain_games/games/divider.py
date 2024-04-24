@@ -1,3 +1,4 @@
+import prompt
 from brain_games.engine.engine import generate_question_gcd, check_response, welcome
 
 
@@ -9,7 +10,7 @@ def run_divider_game():
     for _ in range(3):
         expression, correct_answer =  generate_question_gcd()
         print(f"Question: {expression}")
-        user_answer = input("Your answer: ")
+        user_answer = prompt.string("Your answer: ")
         result = check_response(expression, correct_answer,
                                 user_answer, user_name)
         if result == 'Correct!':
