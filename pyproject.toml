@@ -29,7 +29,6 @@ flake8 = "^7.0.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
 classifiers = [
 'Environment :: Console',
 'Natural Language :: English',
