@@ -8,7 +8,17 @@ repository = "https://github.com/figan915/python-project-49.git"
 packages = [
   { include = "brain_games" },
 ]
-
+classifiers = [
+'Environment :: Console',
+'Natural Language :: English',
+'Development Status :: 4 - Beta',
+'Operating System :: MacOS',
+'Operating System :: Microsoft',
+'Operating System :: POSIX :: Linux',
+'Programming Language :: Python',
+'Intended Audience :: Education',
+'Topic :: Games/Entertainment :: Arcade'
+]
 
 
 [tool.poetry.dependencies]
@@ -29,15 +39,4 @@ flake8 = "^7.0.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-classifiers = [
-'Environment :: Console',
-'Natural Language :: English',
-'Development Status :: 4 - Beta',
-'Operating System :: MacOS',
-'Operating System :: Microsoft',
-'Operating System :: POSIX :: Linux',
-'Programming Language :: Python',
-'Intended Audience :: Education',
-'Topic :: Games/Entertainment :: Arcade'
-]
 
