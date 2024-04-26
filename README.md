@@ -4,6 +4,8 @@
 ### Codeclimat bages:
 [![Maintainability](https://api.codeclimate.com/v1/badges/d467d6b9725301cb4689/maintainability)](https://codeclimate.com/github/figan915/python-project-49/maintainability)
 ### ASCIINEMA Demo:
+### Install package
+[![asciicast](https://asciinema.org/a/xeKkUwBbXt8P6SbWZ1EAWBoiv.svg)](https://asciinema.org/a/xeKkUwBbXt8P6SbWZ1EAWBoiv)
 ### Brain-even
 [![asciicast](https://asciinema.org/a/MIdzVEEVvTCnn6wdeUKad2w2k.svg)](https://asciinema.org/a/MIdzVEEVvTCnn6wdeUKad2w2k)
 ### Brain-calc

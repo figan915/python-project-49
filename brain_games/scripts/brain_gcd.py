@@ -1,10 +1,13 @@
-#!/usr/bin/env python3
-from brain_games.games.divider import run_divider_game
-print("brain-gcd\n\nWelcome to the Brain Games!")
+# #!/usr/bin/env python3
+
+from brain_games.games import divider
+from brain_games.engine.engine import run
 
 
 def main():
-    run_divider_game()
+    print('brain-gcd\n')
+
+    run(divider)
 
 
 if __name__ == '__main__':
