@@ -12,5 +12,10 @@ def generate_question_and_answer():
     num2 = random.randint(MIN_NUMBER, MAX_NUMBER)
     operator = random.choice(OPERATORS)
     expression = f"{num1} {operator} {num2}"
-    answer = str(eval(expression))
+    if operator == '+':
+        answer = str(num1 + num2)
+    elif operator == '-':
+        answer = str(num1 - num2)
+    elif operator == '*':
+        answer = str(num1 * num2)
     return expression, answer
