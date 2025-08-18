@@ -1,2 +1,28 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/figan915/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/figan915/python-project-49/actions)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=figan915_python-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=figan915_python-project-49)
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=figan915_python-project-49)](https://sonarcloud.io/summary/new_code?id=figan915_python-project-49)
+[![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-dark.svg)](https://sonarcloud.io/summary/new_code?id=figan915_python-project-49)
+
+### Links
+
+This project was built using these tools:
+
+| Tool                                                                   | Description                                             |
+|------------------------------------------------------------------------|---------------------------------------------------------|
+| [uv](https://docs.astral.sh/uv/)                                       | "An extremely fast Python package and project manager, written in Rust" |
+| [ruff](https://docs.astral.sh/ruff/)                                   | "An extremely fast Python linter and code formatter, written in Rust" |
+
+---
+
+
+### Setup
+
+```bash
+make package-install
+```
+
+### Examples
+```bash
+uv run brain-games
+```
