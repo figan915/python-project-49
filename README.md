@@ -34,3 +34,6 @@ uv run brain-games
 
 ### Brain-gcd
 [![asciicast](https://asciinema.org/a/ieWJJTYRDJPkAPnilK6EYb9OD.svg)](https://asciinema.org/a/ieWJJTYRDJPkAPnilK6EYb9OD)
+
+### Brain-progression
+[![asciicast](https://asciinema.org/a/SAxxuUL7GQuTuqokvwAXVaHWS.svg)](https://asciinema.org/a/SAxxuUL7GQuTuqokvwAXVaHWS)
