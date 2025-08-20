@@ -28,3 +28,6 @@ uv run brain-games
 
 ### Brain-even
 [![asciicast](https://asciinema.org/a/XEnNpFFbaVTszynjKVl6RoWxG.svg)](https://asciinema.org/a/XEnNpFFbaVTszynjKVl6RoWxG)
+
+### Brain-calc
+[![asciicast](https://asciinema.org/a/dstilnumpU2zials0IrYMzTNF.svg)](https://asciinema.org/a/dstilnumpU2zials0IrYMzTNF)
