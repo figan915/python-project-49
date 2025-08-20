@@ -31,3 +31,6 @@ uv run brain-games
 
 ### Brain-calc
 [![asciicast](https://asciinema.org/a/dstilnumpU2zials0IrYMzTNF.svg)](https://asciinema.org/a/dstilnumpU2zials0IrYMzTNF)
+
+### Brain-gcd
+[![asciicast](https://asciinema.org/a/ieWJJTYRDJPkAPnilK6EYb9OD.svg)](https://asciinema.org/a/ieWJJTYRDJPkAPnilK6EYb9OD)
