@@ -23,7 +23,15 @@ make package-install
 
 ### Examples
 ```bash
-uv run brain-games
+brain-even - run brain-even game: answer "yes" if the number is even, otherwise answer "no".
+
+brain-calc - run brain-calculator game: what is the result of the expression?.
+
+brain-gcd - run brain-gcd game: find the greatest common divisor of given numbers.
+
+brain-progression - run brain-progression game: what number is missing in the progression?
+
+brain-prime - run brain-prime game: answer "yes" if given number is prime. Otherwise answer "no".
 ```
 
 ### Brain-even
@@ -37,3 +45,6 @@ uv run brain-games
 
 ### Brain-progression
 [![asciicast](https://asciinema.org/a/SAxxuUL7GQuTuqokvwAXVaHWS.svg)](https://asciinema.org/a/SAxxuUL7GQuTuqokvwAXVaHWS)
+
+### Brain-prime
+[![asciicast](https://asciinema.org/a/VYaPkfRxeiurr34cqApXibpzm.svg)](https://asciinema.org/a/VYaPkfRxeiurr34cqApXibpzm)
