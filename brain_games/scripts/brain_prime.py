@@ -1,5 +1,5 @@
-from brain_games.games import is_prime
 from brain_games.engine.engine import run
+from brain_games.games import is_prime
 
 
 def main():
